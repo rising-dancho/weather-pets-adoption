@@ -1,6 +1,5 @@
-# some yapping for lore:
-- i was doing a direct fetch to the public api in the frontend (exposing my api key right in the fetch url). to fix that security issue, i move the weather feature into the backend. in this way, i can hide my <strong style="color: green">api key in a .env file</strong> (a server side specific feature)
+# Some yapping for lore:
+- I was doing a direct fetch to the public API in the frontend (exposing my API key right in the fetch URL). To fix that security issue, I moved the weather feature into the backend. In this way, I can hide my **API key in a `.env` file** (a server-side specific feature).
 
-path for the weather:
-https://weather-pets-adoption-see6.vercel.app/weather
-
+Path for the weather:
+[https://weather-pets-adoption-see6.vercel.app/weather](https://weather-pets-adoption-see6.vercel.app/weather)
