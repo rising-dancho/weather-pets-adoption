@@ -1,5 +1,5 @@
 # some yapping for lore:
-- had to move the weather api fetch feature into server side inorder to have a more secure environment, instead of fetching directly from the client side (exposing the api key). this way i can hide the key in a .env file (a server side specific feature)
+- i was doing a direct fetch to the public api in the frontend (exposing my api key right in the fetch url). to fix that security issue, i move the weather feature into the backend. in this way, i can hide my <strong>api key in a .env file</strong> (a server side specific feature)
 
 path for the weather:
 https://weather-pets-adoption-see6.vercel.app/weather
