@@ -1,5 +1,5 @@
 # Some yapping for lore:
-- I was doing a direct fetch to the public API in the frontend (exposing my API key right in the fetch URL). To fix that security issue, I moved the weather feature into the backend. In this way, I can hide my **API key in a `.env` file** (a server-side specific feature).
+- i was fetching the weather data directly on the frontend, but that exposes my API key. To fix this, I moved the weather feature server side (backend). in this way, I can hide my **API key in a `.env` file** (a server-side specific feature. that means, `process.env.VARIABLE_NAME` is not available or accessible in the browser side.. that capability is only available backend). don't believe me? try it lol. use `process.env` in your frontend code and see if it works.
 
 Path for the weather:
 [https://weather-pets-adoption-see6.vercel.app/weather](https://weather-pets-adoption-see6.vercel.app/weather)
